@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Diffchiver' target in the 'Diffchiver' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

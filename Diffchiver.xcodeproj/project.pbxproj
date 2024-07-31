@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0D96AB2BC9988700DF2928 /* LDFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D96A82BC9988700DF2928 /* LDFile.m */; };
+		0A0D96AC2BC9988700DF2928 /* LDCRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D96AA2BC9988700DF2928 /* LDCRC.m */; };
+		0A0D96AD2BC99C1D00DF2928 /* LDFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D96A82BC9988700DF2928 /* LDFile.m */; };
+		0A0D96AE2BC99C1D00DF2928 /* LDCRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D96AA2BC9988700DF2928 /* LDCRC.m */; };
+		0A0D96AF2BC99C1D00DF2928 /* LDDiffTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76622BC6F27800D7DFAE /* LDDiffTool.m */; };
+		0A0D96B02BC99C1D00DF2928 /* LDUndiffTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76642BC6F27800D7DFAE /* LDUndiffTool.m */; };
+		0A0E2CE12BD563DC00B2BFA5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E2CE02BD563DC00B2BFA5 /* Security.framework */; };
+		0A14EE992BD30852006DE9F7 /* LDDiffToolBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14EE982BD30851006DE9F7 /* LDDiffToolBase.m */; };
+		0A2E762A2BC6EA8900D7DFAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E76292BC6EA8900D7DFAE /* Cocoa.framework */; };
+		0A2E76342BC6EA8900D7DFAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E76322BC6EA8900D7DFAE /* InfoPlist.strings */; };
+		0A2E76362BC6EA8900D7DFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76352BC6EA8900D7DFAE /* main.m */; };
+		0A2E763A2BC6EA8900D7DFAE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E76382BC6EA8900D7DFAE /* Credits.rtf */; };
+		0A2E763D2BC6EA8900D7DFAE /* LDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E763C2BC6EA8900D7DFAE /* LDDocument.m */; };
+		0A2E76402BC6EA8900D7DFAE /* LDDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E763E2BC6EA8900D7DFAE /* LDDocument.xib */; };
+		0A2E76432BC6EA8900D7DFAE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E76412BC6EA8900D7DFAE /* MainMenu.xib */; };
+		0A2E764B2BC6EA8A00D7DFAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E764A2BC6EA8A00D7DFAE /* SenTestingKit.framework */; };
+		0A2E764C2BC6EA8A00D7DFAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2E76292BC6EA8900D7DFAE /* Cocoa.framework */; };
+		0A2E76542BC6EA8A00D7DFAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2E76522BC6EA8A00D7DFAE /* InfoPlist.strings */; };
+		0A2E76572BC6EA8A00D7DFAE /* DiffchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76562BC6EA8A00D7DFAE /* DiffchiverTests.m */; };
+		0A2E76652BC6F27800D7DFAE /* LDDiffTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76622BC6F27800D7DFAE /* LDDiffTool.m */; };
+		0A2E76662BC6F27800D7DFAE /* LDUndiffTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E76642BC6F27800D7DFAE /* LDUndiffTool.m */; };
+		0A7E8F3B2BC9EEF30037DC69 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7E8F3A2BC9EEF30037DC69 /* QuickLook.framework */; };
+		0A7E8F3D2BC9EEF30037DC69 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7E8F3C2BC9EEF30037DC69 /* ApplicationServices.framework */; };
+		0A7E8F3F2BC9EEF30037DC69 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7E8F3E2BC9EEF30037DC69 /* CoreServices.framework */; };
+		0A7E8F412BC9EEF30037DC69 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7E8F402BC9EEF30037DC69 /* CoreFoundation.framework */; };
+		0A7E8F472BC9EEF30037DC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E8F452BC9EEF30037DC69 /* InfoPlist.strings */; };
+		0A7E8F492BC9EEF30037DC69 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E8F482BC9EEF30037DC69 /* GenerateThumbnailForURL.c */; };
+		0A7E8F4B2BC9EEF30037DC69 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E8F4A2BC9EEF30037DC69 /* GeneratePreviewForURL.c */; };
+		0A7E8F4D2BC9EEF30037DC69 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E8F4C2BC9EEF30037DC69 /* main.c */; };
+		0A7E8F542BCA0A5F0037DC69 /* LDDataStreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E8F532BCA0A5F0037DC69 /* LDDataStreamReader.m */; };
+		0A7E8F572BCAB5A70037DC69 /* LDFileStreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E8F562BCAB5A70037DC69 /* LDFileStreamReader.m */; };
+		0A806B7D2BCD7307007D5C51 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADC37372BC6F90B0097ECA3 /* Quartz.framework */; };
+		0A9860D62BD4AD6900C1F4DB /* LDDiskTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9860D52BD4AD6900C1F4DB /* LDDiskTableController.m */; };
+		0ADC37382BC6F90B0097ECA3 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADC37372BC6F90B0097ECA3 /* Quartz.framework */; };
+		0ADC373F2BC6F94B0097ECA3 /* LDFileTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC373A2BC6F94B0097ECA3 /* LDFileTableView.m */; };
+		0ADC37402BC6F94B0097ECA3 /* LDFileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC373C2BC6F94B0097ECA3 /* LDFileTableViewController.m */; };
+		0ADC37412BC6F94B0097ECA3 /* LDFileTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC373E2BC6F94B0097ECA3 /* LDFileTableViewDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A2E764D2BC6EA8A00D7DFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A2E761E2BC6EA8900D7DFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2E76252BC6EA8900D7DFAE;
+			remoteInfo = Diffchiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0D96A72BC9988700DF2928 /* LDFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFile.h; sourceTree = "<group>"; };
+		0A0D96A82BC9988700DF2928 /* LDFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFile.m; sourceTree = "<group>"; };
+		0A0D96A92BC9988700DF2928 /* LDCRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCRC.h; sourceTree = "<group>"; };
+		0A0D96AA2BC9988700DF2928 /* LDCRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCRC.m; sourceTree = "<group>"; };
+		0A0E2CE02BD563DC00B2BFA5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		0A14EE972BD30851006DE9F7 /* LDDiffToolBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDiffToolBase.h; sourceTree = "<group>"; };
+		0A14EE982BD30851006DE9F7 /* LDDiffToolBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDiffToolBase.m; sourceTree = "<group>"; };
+		0A2E76262BC6EA8900D7DFAE /* Diffchiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffchiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2E76292BC6EA8900D7DFAE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A2E762C2BC6EA8900D7DFAE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A2E762D2BC6EA8900D7DFAE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A2E762E2BC6EA8900D7DFAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A2E76312BC6EA8900D7DFAE /* Diffchiver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diffchiver-Info.plist"; sourceTree = "<group>"; };
+		0A2E76332BC6EA8900D7DFAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2E76352BC6EA8900D7DFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2E76372BC6EA8900D7DFAE /* Diffchiver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diffchiver-Prefix.pch"; sourceTree = "<group>"; };
+		0A2E76392BC6EA8900D7DFAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A2E763B2BC6EA8900D7DFAE /* LDDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDDocument.h; sourceTree = "<group>"; };
+		0A2E763C2BC6EA8900D7DFAE /* LDDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDDocument.m; sourceTree = "<group>"; };
+		0A2E763F2BC6EA8900D7DFAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LDDocument.xib; sourceTree = "<group>"; };
+		0A2E76422BC6EA8900D7DFAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A2E76492BC6EA8A00D7DFAE /* DiffchiverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffchiverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2E764A2BC6EA8A00D7DFAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A2E76512BC6EA8A00D7DFAE /* DiffchiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiffchiverTests-Info.plist"; sourceTree = "<group>"; };
+		0A2E76532BC6EA8A00D7DFAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2E76552BC6EA8A00D7DFAE /* DiffchiverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiffchiverTests.h; sourceTree = "<group>"; };
+		0A2E76562BC6EA8A00D7DFAE /* DiffchiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiffchiverTests.m; sourceTree = "<group>"; };
+		0A2E76612BC6F27800D7DFAE /* LDDiffTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDiffTool.h; sourceTree = "<group>"; };
+		0A2E76622BC6F27800D7DFAE /* LDDiffTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDiffTool.m; sourceTree = "<group>"; };
+		0A2E76632BC6F27800D7DFAE /* LDUndiffTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDUndiffTool.h; sourceTree = "<group>"; };
+		0A2E76642BC6F27800D7DFAE /* LDUndiffTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDUndiffTool.m; sourceTree = "<group>"; };
+		0A7E8F392BC9EEF30037DC69 /* LDQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7E8F3A2BC9EEF30037DC69 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		0A7E8F3C2BC9EEF30037DC69 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		0A7E8F3E2BC9EEF30037DC69 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		0A7E8F402BC9EEF30037DC69 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0A7E8F442BC9EEF30037DC69 /* LDQuickLook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LDQuickLook-Info.plist"; sourceTree = "<group>"; };
+		0A7E8F462BC9EEF30037DC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A7E8F482BC9EEF30037DC69 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		0A7E8F4A2BC9EEF30037DC69 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		0A7E8F4C2BC9EEF30037DC69 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A7E8F4E2BC9EEF30037DC69 /* LDQuickLook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LDQuickLook-Prefix.pch"; sourceTree = "<group>"; };
+		0A7E8F522BCA0A5F0037DC69 /* LDDataStreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDataStreamReader.h; sourceTree = "<group>"; };
+		0A7E8F532BCA0A5F0037DC69 /* LDDataStreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDataStreamReader.m; sourceTree = "<group>"; };
+		0A7E8F552BCAB5A70037DC69 /* LDFileStreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFileStreamReader.h; sourceTree = "<group>"; };
+		0A7E8F562BCAB5A70037DC69 /* LDFileStreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFileStreamReader.m; sourceTree = "<group>"; };
+		0A9860D42BD4AD6900C1F4DB /* LDDiskTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDiskTableController.h; sourceTree = "<group>"; };
+		0A9860D52BD4AD6900C1F4DB /* LDDiskTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDiskTableController.m; sourceTree = "<group>"; };
+		0ADC37372BC6F90B0097ECA3 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		0ADC37392BC6F94B0097ECA3 /* LDFileTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFileTableView.h; sourceTree = "<group>"; };
+		0ADC373A2BC6F94B0097ECA3 /* LDFileTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFileTableView.m; sourceTree = "<group>"; };
+		0ADC373B2BC6F94B0097ECA3 /* LDFileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFileTableViewController.h; sourceTree = "<group>"; };
+		0ADC373C2BC6F94B0097ECA3 /* LDFileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFileTableViewController.m; sourceTree = "<group>"; };
+		0ADC373D2BC6F94B0097ECA3 /* LDFileTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFileTableViewDelegate.h; sourceTree = "<group>"; };
+		0ADC373E2BC6F94B0097ECA3 /* LDFileTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFileTableViewDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2E76232BC6EA8900D7DFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0E2CE12BD563DC00B2BFA5 /* Security.framework in Frameworks */,
+				0ADC37382BC6F90B0097ECA3 /* Quartz.framework in Frameworks */,
+				0A2E762A2BC6EA8900D7DFAE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2E76452BC6EA8A00D7DFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A806B7D2BCD7307007D5C51 /* Quartz.framework in Frameworks */,
+				0A2E764B2BC6EA8A00D7DFAE /* SenTestingKit.framework in Frameworks */,
+				0A2E764C2BC6EA8A00D7DFAE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7E8F342BC9EEF30037DC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7E8F3B2BC9EEF30037DC69 /* QuickLook.framework in Frameworks */,
+				0A7E8F3D2BC9EEF30037DC69 /* ApplicationServices.framework in Frameworks */,
+				0A7E8F3F2BC9EEF30037DC69 /* CoreServices.framework in Frameworks */,
+				0A7E8F412BC9EEF30037DC69 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2E761D2BC6EA8900D7DFAE = {
+			isa = PBXGroup;
+			children = (
+				0A2E762F2BC6EA8900D7DFAE /* Diffchiver */,
+				0A7E8F422BC9EEF30037DC69 /* LDQuickLook */,
+				0A2E764F2BC6EA8A00D7DFAE /* DiffchiverTests */,
+				0A2E76282BC6EA8900D7DFAE /* Frameworks */,
+				0A2E76272BC6EA8900D7DFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2E76272BC6EA8900D7DFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E76262BC6EA8900D7DFAE /* Diffchiver.app */,
+				0A2E76492BC6EA8A00D7DFAE /* DiffchiverTests.octest */,
+				0A7E8F392BC9EEF30037DC69 /* LDQuickLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2E76282BC6EA8900D7DFAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E2CE02BD563DC00B2BFA5 /* Security.framework */,
+				0ADC37372BC6F90B0097ECA3 /* Quartz.framework */,
+				0A2E76292BC6EA8900D7DFAE /* Cocoa.framework */,
+				0A2E764A2BC6EA8A00D7DFAE /* SenTestingKit.framework */,
+				0A7E8F3A2BC9EEF30037DC69 /* QuickLook.framework */,
+				0A7E8F3C2BC9EEF30037DC69 /* ApplicationServices.framework */,
+				0A7E8F3E2BC9EEF30037DC69 /* CoreServices.framework */,
+				0A7E8F402BC9EEF30037DC69 /* CoreFoundation.framework */,
+				0A2E762B2BC6EA8900D7DFAE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2E762B2BC6EA8900D7DFAE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E762C2BC6EA8900D7DFAE /* AppKit.framework */,
+				0A2E762D2BC6EA8900D7DFAE /* CoreData.framework */,
+				0A2E762E2BC6EA8900D7DFAE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A2E762F2BC6EA8900D7DFAE /* Diffchiver */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E763B2BC6EA8900D7DFAE /* LDDocument.h */,
+				0A2E763C2BC6EA8900D7DFAE /* LDDocument.m */,
+				0A2E763E2BC6EA8900D7DFAE /* LDDocument.xib */,
+				0A2E76412BC6EA8900D7DFAE /* MainMenu.xib */,
+				0A2E76602BC6F14F00D7DFAE /* LDiffLib */,
+				0ADC37392BC6F94B0097ECA3 /* LDFileTableView.h */,
+				0ADC373A2BC6F94B0097ECA3 /* LDFileTableView.m */,
+				0ADC373B2BC6F94B0097ECA3 /* LDFileTableViewController.h */,
+				0ADC373C2BC6F94B0097ECA3 /* LDFileTableViewController.m */,
+				0ADC373D2BC6F94B0097ECA3 /* LDFileTableViewDelegate.h */,
+				0ADC373E2BC6F94B0097ECA3 /* LDFileTableViewDelegate.m */,
+				0A9860D42BD4AD6900C1F4DB /* LDDiskTableController.h */,
+				0A9860D52BD4AD6900C1F4DB /* LDDiskTableController.m */,
+				0A2E76302BC6EA8900D7DFAE /* Supporting Files */,
+			);
+			path = Diffchiver;
+			sourceTree = "<group>";
+		};
+		0A2E76302BC6EA8900D7DFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E76312BC6EA8900D7DFAE /* Diffchiver-Info.plist */,
+				0A2E76322BC6EA8900D7DFAE /* InfoPlist.strings */,
+				0A2E76352BC6EA8900D7DFAE /* main.m */,
+				0A2E76372BC6EA8900D7DFAE /* Diffchiver-Prefix.pch */,
+				0A2E76382BC6EA8900D7DFAE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A2E764F2BC6EA8A00D7DFAE /* DiffchiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E76552BC6EA8A00D7DFAE /* DiffchiverTests.h */,
+				0A2E76562BC6EA8A00D7DFAE /* DiffchiverTests.m */,
+				0A2E76502BC6EA8A00D7DFAE /* Supporting Files */,
+			);
+			path = DiffchiverTests;
+			sourceTree = "<group>";
+		};
+		0A2E76502BC6EA8A00D7DFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E76512BC6EA8A00D7DFAE /* DiffchiverTests-Info.plist */,
+				0A2E76522BC6EA8A00D7DFAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A2E76602BC6F14F00D7DFAE /* LDiffLib */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D96A72BC9988700DF2928 /* LDFile.h */,
+				0A0D96A82BC9988700DF2928 /* LDFile.m */,
+				0A0D96A92BC9988700DF2928 /* LDCRC.h */,
+				0A0D96AA2BC9988700DF2928 /* LDCRC.m */,
+				0A2E76612BC6F27800D7DFAE /* LDDiffTool.h */,
+				0A2E76622BC6F27800D7DFAE /* LDDiffTool.m */,
+				0A2E76632BC6F27800D7DFAE /* LDUndiffTool.h */,
+				0A2E76642BC6F27800D7DFAE /* LDUndiffTool.m */,
+				0A14EE972BD30851006DE9F7 /* LDDiffToolBase.h */,
+				0A14EE982BD30851006DE9F7 /* LDDiffToolBase.m */,
+				0A7E8F552BCAB5A70037DC69 /* LDFileStreamReader.h */,
+				0A7E8F562BCAB5A70037DC69 /* LDFileStreamReader.m */,
+				0A7E8F522BCA0A5F0037DC69 /* LDDataStreamReader.h */,
+				0A7E8F532BCA0A5F0037DC69 /* LDDataStreamReader.m */,
+			);
+			name = LDiffLib;
+			sourceTree = "<group>";
+		};
+		0A7E8F422BC9EEF30037DC69 /* LDQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E8F482BC9EEF30037DC69 /* GenerateThumbnailForURL.c */,
+				0A7E8F4A2BC9EEF30037DC69 /* GeneratePreviewForURL.c */,
+				0A7E8F4C2BC9EEF30037DC69 /* main.c */,
+				0A7E8F432BC9EEF30037DC69 /* Supporting Files */,
+			);
+			path = LDQuickLook;
+			sourceTree = "<group>";
+		};
+		0A7E8F432BC9EEF30037DC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E8F442BC9EEF30037DC69 /* LDQuickLook-Info.plist */,
+				0A7E8F452BC9EEF30037DC69 /* InfoPlist.strings */,
+				0A7E8F4E2BC9EEF30037DC69 /* LDQuickLook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A7E8F352BC9EEF30037DC69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A2E76252BC6EA8900D7DFAE /* Diffchiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E765A2BC6EA8A00D7DFAE /* Build configuration list for PBXNativeTarget "Diffchiver" */;
+			buildPhases = (
+				0A2E76222BC6EA8900D7DFAE /* Sources */,
+				0A2E76232BC6EA8900D7DFAE /* Frameworks */,
+				0A2E76242BC6EA8900D7DFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diffchiver;
+			productName = Diffchiver;
+			productReference = 0A2E76262BC6EA8900D7DFAE /* Diffchiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A2E76482BC6EA8A00D7DFAE /* DiffchiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E765D2BC6EA8A00D7DFAE /* Build configuration list for PBXNativeTarget "DiffchiverTests" */;
+			buildPhases = (
+				0A2E76442BC6EA8A00D7DFAE /* Sources */,
+				0A2E76452BC6EA8A00D7DFAE /* Frameworks */,
+				0A2E76462BC6EA8A00D7DFAE /* Resources */,
+				0A2E76472BC6EA8A00D7DFAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2E764E2BC6EA8A00D7DFAE /* PBXTargetDependency */,
+			);
+			name = DiffchiverTests;
+			productName = DiffchiverTests;
+			productReference = 0A2E76492BC6EA8A00D7DFAE /* DiffchiverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0A7E8F382BC9EEF30037DC69 /* LDQuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7E8F512BC9EEF30037DC69 /* Build configuration list for PBXNativeTarget "LDQuickLook" */;
+			buildPhases = (
+				0A7E8F332BC9EEF30037DC69 /* Sources */,
+				0A7E8F342BC9EEF30037DC69 /* Frameworks */,
+				0A7E8F352BC9EEF30037DC69 /* Headers */,
+				0A7E8F362BC9EEF30037DC69 /* Resources */,
+				0A7E8F372BC9EEF30037DC69 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDQuickLook;
+			productName = LDQuickLook;
+			productReference = 0A7E8F392BC9EEF30037DC69 /* LDQuickLook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2E761E2BC6EA8900D7DFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lasse Lauwerys";
+			};
+			buildConfigurationList = 0A2E76212BC6EA8900D7DFAE /* Build configuration list for PBXProject "Diffchiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2E761D2BC6EA8900D7DFAE;
+			productRefGroup = 0A2E76272BC6EA8900D7DFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2E76252BC6EA8900D7DFAE /* Diffchiver */,
+				0A2E76482BC6EA8A00D7DFAE /* DiffchiverTests */,
+				0A7E8F382BC9EEF30037DC69 /* LDQuickLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2E76242BC6EA8900D7DFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E76342BC6EA8900D7DFAE /* InfoPlist.strings in Resources */,
+				0A2E763A2BC6EA8900D7DFAE /* Credits.rtf in Resources */,
+				0A2E76402BC6EA8900D7DFAE /* LDDocument.xib in Resources */,
+				0A2E76432BC6EA8900D7DFAE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2E76462BC6EA8A00D7DFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E76542BC6EA8A00D7DFAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7E8F362BC9EEF30037DC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7E8F472BC9EEF30037DC69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0A7E8F372BC9EEF30037DC69 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A2E76472BC6EA8A00D7DFAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2E76222BC6EA8900D7DFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D96AD2BC99C1D00DF2928 /* LDFile.m in Sources */,
+				0A0D96AE2BC99C1D00DF2928 /* LDCRC.m in Sources */,
+				0A0D96AF2BC99C1D00DF2928 /* LDDiffTool.m in Sources */,
+				0A0D96B02BC99C1D00DF2928 /* LDUndiffTool.m in Sources */,
+				0A2E76362BC6EA8900D7DFAE /* main.m in Sources */,
+				0A2E763D2BC6EA8900D7DFAE /* LDDocument.m in Sources */,
+				0ADC373F2BC6F94B0097ECA3 /* LDFileTableView.m in Sources */,
+				0ADC37402BC6F94B0097ECA3 /* LDFileTableViewController.m in Sources */,
+				0ADC37412BC6F94B0097ECA3 /* LDFileTableViewDelegate.m in Sources */,
+				0A7E8F542BCA0A5F0037DC69 /* LDDataStreamReader.m in Sources */,
+				0A7E8F572BCAB5A70037DC69 /* LDFileStreamReader.m in Sources */,
+				0A14EE992BD30852006DE9F7 /* LDDiffToolBase.m in Sources */,
+				0A9860D62BD4AD6900C1F4DB /* LDDiskTableController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2E76442BC6EA8A00D7DFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E76572BC6EA8A00D7DFAE /* DiffchiverTests.m in Sources */,
+				0A2E76652BC6F27800D7DFAE /* LDDiffTool.m in Sources */,
+				0A2E76662BC6F27800D7DFAE /* LDUndiffTool.m in Sources */,
+				0A0D96AB2BC9988700DF2928 /* LDFile.m in Sources */,
+				0A0D96AC2BC9988700DF2928 /* LDCRC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7E8F332BC9EEF30037DC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7E8F492BC9EEF30037DC69 /* GenerateThumbnailForURL.c in Sources */,
+				0A7E8F4B2BC9EEF30037DC69 /* GeneratePreviewForURL.c in Sources */,
+				0A7E8F4D2BC9EEF30037DC69 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2E764E2BC6EA8A00D7DFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2E76252BC6EA8900D7DFAE /* Diffchiver */;
+			targetProxy = 0A2E764D2BC6EA8A00D7DFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A2E76322BC6EA8900D7DFAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E76332BC6EA8900D7DFAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A2E76382BC6EA8900D7DFAE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E76392BC6EA8900D7DFAE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0A2E763E2BC6EA8900D7DFAE /* LDDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E763F2BC6EA8900D7DFAE /* en */,
+			);
+			name = LDDocument.xib;
+			sourceTree = "<group>";
+		};
+		0A2E76412BC6EA8900D7DFAE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E76422BC6EA8900D7DFAE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0A2E76522BC6EA8A00D7DFAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2E76532BC6EA8A00D7DFAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A7E8F452BC9EEF30037DC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7E8F462BC9EEF30037DC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2E76582BC6EA8A00D7DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		0A2E76592BC6EA8A00D7DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		0A2E765B2BC6EA8A00D7DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffchiver/Diffchiver-Prefix.pch";
+				INFOPLIST_FILE = "Diffchiver/Diffchiver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A2E765C2BC6EA8A00D7DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffchiver/Diffchiver-Prefix.pch";
+				INFOPLIST_FILE = "Diffchiver/Diffchiver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A2E765E2BC6EA8A00D7DFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diffchiver.app/Contents/MacOS/Diffchiver";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffchiver/Diffchiver-Prefix.pch";
+				INFOPLIST_FILE = "DiffchiverTests/DiffchiverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0A2E765F2BC6EA8A00D7DFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diffchiver.app/Contents/MacOS/Diffchiver";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diffchiver/Diffchiver-Prefix.pch";
+				INFOPLIST_FILE = "DiffchiverTests/DiffchiverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0A7E8F4F2BC9EEF30037DC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDQuickLook/LDQuickLook-Prefix.pch";
+				INFOPLIST_FILE = "LDQuickLook/LDQuickLook-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		0A7E8F502BC9EEF30037DC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDQuickLook/LDQuickLook-Prefix.pch";
+				INFOPLIST_FILE = "LDQuickLook/LDQuickLook-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2E76212BC6EA8900D7DFAE /* Build configuration list for PBXProject "Diffchiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E76582BC6EA8A00D7DFAE /* Debug */,
+				0A2E76592BC6EA8A00D7DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2E765A2BC6EA8A00D7DFAE /* Build configuration list for PBXNativeTarget "Diffchiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E765B2BC6EA8A00D7DFAE /* Debug */,
+				0A2E765C2BC6EA8A00D7DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2E765D2BC6EA8A00D7DFAE /* Build configuration list for PBXNativeTarget "DiffchiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E765E2BC6EA8A00D7DFAE /* Debug */,
+				0A2E765F2BC6EA8A00D7DFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7E8F512BC9EEF30037DC69 /* Build configuration list for PBXNativeTarget "LDQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7E8F4F2BC9EEF30037DC69 /* Debug */,
+				0A7E8F502BC9EEF30037DC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2E761E2BC6EA8900D7DFAE /* Project object */;
+}
